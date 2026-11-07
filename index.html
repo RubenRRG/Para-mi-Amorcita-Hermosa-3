@@ -1,0 +1,251 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#100b29">
+  <title>Para mi bello cielo estrellado ❤️</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <div id="estrellas"></div>
+  <div id="corazones"></div>
+
+  <audio id="musica" src="musica.mp3" loop></audio>
+
+  <button id="btnMusica" class="musica-btn" hidden>
+    🎵 Pausar música
+  </button>
+
+  <main class="contenedor">
+
+    <!-- PANTALLA DE BIENVENIDA -->
+    <section id="inicio" class="pantalla">
+      <div class="corazon-grande">❤️</div>
+
+      <h1>Para mi bello cielo estrellado</h1>
+
+      <p class="subtitulo">
+        Hay tantas cosas que quisiera decirte,
+        mi amorcito hermoso...
+      </p>
+
+      <p>
+        Preparé este pequeño universo para ti,
+        porque eres una de las personas
+        más especiales de mi vida.
+      </p>
+
+      <div class="contador">
+        <span>✨ Faltan solamente ✨</span>
+        <strong>2 días</strong>
+        <span>para nuestro primer mes de novios ❤️</span>
+      </div>
+
+      <button id="btnAbrir" class="boton">
+        Abre mi corazón 💌
+      </button>
+    </section>
+
+    <!-- CARTA ROMÁNTICA -->
+    <section id="carta" class="pantalla oculto">
+      <div class="sobre">💌</div>
+
+      <h2>Mi amorcito hermoso...</h2>
+
+      <article class="papel">
+        <p>Mi bello cielo estrellado: ❤️</p>
+
+        <p>
+          Hoy quiero abrirte mi corazón y decirte
+          algo que nace desde lo más profundo
+          de mis sentimientos.
+        </p>
+
+        <p>
+          Primero quiero pedirte perdón por
+          cómo reaccioné ayer. Sé que cuando
+          me siento triste o lastimado,
+          a veces me pongo serio y me cierro.
+          No es porque deje de amarte,
+          sino porque todavía estoy aprendiendo
+          a expresar lo que siento.
+        </p>
+
+        <p>
+          Mi vida, jamás fue mi intención
+          despreciar la comida que tu mami
+          nos preparó con tanto cariño.
+          De verdad estaba muy rica,
+          la disfruté muchísimo y agradezco
+          de corazón todos los detalles
+          que tiene conmigo.
+        </p>
+
+        <!--<p>
+          Solamente tenía una duda sobre
+          el sabor de la chuleta.
+          Nunca quise decir que la comida
+          estuviera fea ni hacerte sentir mal.
+        </p>-->
+
+        <p>
+          También quiero contarte que me dolió
+          sentir que no podía explicarte
+          lo que realmente quería decir.
+          Me entristeció pensar que podríamos
+          dejar de compartir algunos momentos
+          que para mí son tan especiales.
+        </p>
+
+        <p>
+          Llevarte a nuestro trabajito, acompañarte,
+          verte sonreír y pasar esos pequeños
+          ratitos contigo significa mucho
+          más para mí de lo que imaginas.
+        </p>
+
+        <p>
+          Pero no quiero que esta carta sea
+          para buscar culpables ni demostrar
+          quién tiene la razón.
+          Quiero que sea para recordarte
+          cuánto te amo y cuánto deseo
+          que sigamos creciendo juntos.
+        </p>
+
+        <p class="destacado">
+          Mi amor, estamos a solamente
+          dos días de cumplir nuestro
+          primer mes de novios "0.1". 🥹❤️
+        </p>
+
+        <p>
+          Y no sabes lo feliz que me hace
+          pensar en todo lo bonito que
+          hemos vivido durante este tiempo.
+        </p>
+
+        <p>
+          Desde que llegaste a mi vida,
+          he aprendido a expresar mejor
+          mis sentimientos y a no guardar
+          tantas cosas dentro de mí.
+          Quiero seguir mejorando,
+          por mí, por tí y por nosotros.
+        </p>
+
+        <p>
+          No quiero que este malentendido
+          arruine lo nuestro, mi cielo bello.
+          Yo siempre he querido que
+          nuestra historia sea increíble,
+          que construyamos recuerdos hermosos
+          y que sigamos eligiéndonos
+          con amor, paciencia y respeto.
+        </p>
+
+        <p>
+          Sé que no siempre estaremos
+          de acuerdo en todo, pero deseo
+          que podamos escucharnos,
+          comprendernos y cuidar
+          nuestros sentimientos.
+        </p>
+
+        <p class="destacado">
+          No quiero que seamos tú contra mí.
+          Quiero que siempre seamos
+          nosotros dos, juntos frente
+          a cualquier problema y contra el mundo. ❤️
+        </p>
+
+        <p>
+          Quiero seguir riendo contigo,
+          abrazándote, dándote besitos,
+          acompañándote en tus días buenos,
+          los difíciles y siempre en cada momento estar a tu ladito.
+        </p>
+
+        <p>
+          Quiero que nunca nos falten
+          las ganas de hablar, de comprendernos
+          y de construir una relación
+          cada día más bonita.
+        </p>
+
+        <p>
+          Te amo muchísimo, mi bello cielo
+          estrellado. Gracias por todos
+          los momentos hermosos que
+          hemos compartido.
+        </p>
+
+        <p>
+          Ojalá podamos seguir siendo
+          ese equipo tan bonito que
+          los dos merecemos. ✨
+        </p>
+
+        <p class="firma">
+          Con todo mi amor,<br>
+          tu niño que te ama muchísimo. ❤️
+        </p>
+      </article>
+
+      <button id="btnSorpresa" class="boton">
+        Tengo algo más para ti 🌷
+      </button>
+    </section>
+
+    <!-- SORPRESA FINAL -->
+    <section id="sorpresa" class="pantalla oculto">
+      <div class="flor">🌷</div>
+
+      <h2>Mi deseo para nosotros ❤️</h2>
+
+      <p>
+        En dos días cumplimos nuestro
+        primer mes de novios "0.1"...
+      </p>
+
+      <p>
+        Y mi deseo es que sea solamente
+        el primero de muchísimos
+        momentos hermosos juntos.
+      </p>
+
+      <div class="mensaje-final">
+        <h2>Siempre nosotros dos</h2>
+        <p>
+          Incluso cuando existan diferencias,
+          quiero que nunca olvidemos
+          que estamos del mismo lado.
+        </p>
+        <strong>
+          Te amo tanto, mi bello cielo estrellado.
+          ❤️✨
+        </strong>
+      </div>
+
+      <p class="nota">
+        No tienes que responderme ahora.
+        Solamente quería abrirte mi corazón y que siempre veas lo tanto que te amamos
+        mi corazón de pollito y yo por ti y tu mini tu en tu bello y hermoso corazoncito.
+        Cuando estemos tranquilos,
+        me gustaría que podamos hablar
+        y escucharnos con mucho amor.
+        TE AMOOOOOOOOOOOOOO Y SIEMPRE TE AMAREEEEEEEEEEEE MI CHINITA LINDA ❤️
+      </p>
+
+      <button id="btnVolver" class="boton secundario">
+        Volver a leer nuestra carta 💌
+      </button>
+    </section>
+
+  </main>
+</body>
+</html>
